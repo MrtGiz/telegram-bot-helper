@@ -10,8 +10,8 @@ import sys
 from enum import Enum, auto
 from collections import OrderedDict
 
-from telegram_drillbot.drillbot.drillbot import DrillBot
-from telegram_drillbot.drillbot.transition import MenuTransition, SaveTransition, NoTransition
+from drillbot.drillbot import DrillBot
+from drillbot.transition import MenuTransition, SaveTransition, NoTransition
 
 from settings import TOKEN
 from model import messages
